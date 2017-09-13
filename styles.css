@@ -1,0 +1,52 @@
+html{
+    font-family: Consola;
+}
+
+header{
+    color: orange;
+    background-color: #040549;
+    text-align: center;
+    font-size: 25px;
+}
+
+body{
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+
+table{
+    text-align: center;
+}
+
+.content{
+    color: white;
+    
+    text-align: center;
+    
+    font-size: 25px;
+    
+    max-width: 1600px;    
+    
+    padding: 1em;
+}
+
+td {
+    
+    font-size: 15px;
+    
+    color: white;
+    
+    padding: 0 40px 40px 40px;
+
+    }
+    
+    th {
+    
+    font-size: 25px;
+    
+    color: white;
+    
+    }
+
+
