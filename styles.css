@@ -3,14 +3,14 @@ html{
 }
 
 header{
-    color: orange;
-    background-color: #040549;
+    color: #FF9100;
+    background-color: #098609;
     text-align: center;
     font-size: 25px;
 }
 
 body{
-    background-color: darkblue;
+    background-color: #094D03;
     text-align: center;
     color: white;
 }
@@ -32,7 +32,7 @@ table{
 }
 
 td {
-    
+    text-align: center;
     font-size: 15px;
     
     color: white;
@@ -41,12 +41,13 @@ td {
 
     }
     
-    th {
+th {
     
     font-size: 25px;
     
     color: white;
     
     }
+
 
 

@@ -1,0 +1,78 @@
+<!doctype html>
+<!-- Contact Us page -->
+
+<html lang="en">
+  
+  <head>
+      <title>Contact Us</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styles.css">
+      <meta name="Company" content="Video Games">
+
+  </head>
+
+  <body>
+    
+        <header>
+          <h1>
+            rather be gaming&copy 
+          </h1>
+    
+          <img src = "images/rather-be-gaming.png" width="207" alt ="rather be gaming Company Logo" />
+    
+        </header>
+  
+        <h1> Contact Us</h1>
+
+        <div class="content">
+                
+             <p>            
+                Please contact us with any questions, comments, or concerns and we will respond as quickly as possible.               
+            </p>
+
+            <hr>
+
+            <form action="">
+                <p>
+                    <label> First Name: <input type ="text" name = "firstname" size = "30" autofocus/>  </label><br/><br/>
+                    <label> Last Name: <input type ="text" name = "lastname" size = "30" />  </label> <br/><br/>
+                    <label> Phone: <input type ="text" name = "phone" size = "15" />  </label> <br/><br/>
+                    <label> Email: <input type ="email" name = "email" size = "50" />  </label> <br/><br/>
+                </p>
+                <p>Please select your prefered form of response:</p>
+                <p>
+                    <table style="width:100%">
+                        <tr>
+                            <td><label><input type="radio" name="response" value="Remail"> Email </label> </td><br/>
+                            <td><label><input type="radio" name="response" value="Rphone"> Phone </label></td><br/>
+                            <td><label><input type="radio" name="response" value="Rtext"> Text </label></td><br/>                    
+                        </tr>                   
+                    </table>
+                </p>
+
+                <hr>
+
+                <p>
+                    Reason for contacting:
+                </p>
+                <select name="contactingfor">
+                        <option value="question">Question</option>
+                        <option value="comment">Comment</option>
+                        <option value="concern">Concern</option>
+                </select> <br/><br/>
+
+                <textarea name="message" rows="10" cols="30">Type content here...</textarea><br/>
+
+                <input type="submit" value="Submit" onclick="alert('Your submittion was succesful.')" >
+                
+                <input type="reset" onclick="alert('You reset the form.')">
+
+            </form>
+
+            <h3>
+                <a href="index.htm">Home</a>
+            </h3>
+            
+        </div>       
+    </body>
+</html>
