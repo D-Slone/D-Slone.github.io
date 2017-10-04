@@ -1,12 +1,12 @@
 html{
-    font-family: Consola;
+    font-family: Consolas , Lucida Console, Courier New;
 }
 
 header{
     color: #FF9100;
     background-color: #098609;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 body{
@@ -14,6 +14,23 @@ body{
     text-align: center;
     color: white;
 }
+
+a:link {
+    color: #33FF00;
+}
+
+a:visited {
+    color: #0059FF;
+}
+
+a:hover {
+    background-color: #098609;
+    color: #FF9100;
+}
+
+a:active {
+    color: #FFFFFF;
+} 
 
 table{
     text-align: center;
@@ -42,7 +59,8 @@ td {
     }
     
 th {
-    
+    text-align: center;
+
     font-size: 25px;
     
     color: white;
