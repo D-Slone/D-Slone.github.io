@@ -1,71 +1,111 @@
 html{
-    font-family: Consolas , Lucida Console, Courier New;
+
+    font-family: Consolas, Lucida Console, Courier New;
 }
 
 header{
-    color: #FF9100;
-    background-color: #098609;
+
+    color: lime;
+    background-color: #0D5A0D;
     text-align: center;
-    font-size: 30px;
+    font-size: 33px;
+    font-style: oblique;
+    border-bottom: thin solid #33FF00;
+    
 }
 
 body{
-    background-color: #094D03;
+
+    background-color: #094204;
     text-align: center;
     color: white;
 }
 
 a:link {
+
     color: #33FF00;
 }
 
 a:visited {
+
     color: #0059FF;
 }
 
 a:hover {
-    background-color: #098609;
-    color: #FF9100;
+
+    
+    color: #E5FF00;
 }
 
 a:active {
+
     color: #FFFFFF;
 } 
 
+nav {
+
+    float: left;
+    font-size: 1.5em;
+    max-width: 160px;  
+    margin-top: 2em;   
+    margin-right: 1.5em;
+    padding: 1.5em;
+    border-right: thin solid #33FF00;
+    position: fixed;
+    height: 100%;
+}
+        
+nav li {
+    margin: .5em;
+    list-style-type: none;
+    width: 200px;
+}
+     
+nav li a {
+
+    text-decoration: none;
+    padding: 8px 16px 8px;
+
+}
+
 table{
+
     text-align: center;
 }
 
 .content{
+
     color: white;
-    
-    text-align: center;
-    
-    font-size: 25px;
-    
-    max-width: 1600px;    
-    
+    text-align: center;    
+    font-size: 25px;    
+    max-width: 1600px;       
     padding: 1em;
+    margin-left: 220px;
 }
 
 td {
     text-align: center;
-    font-size: 15px;
-    
-    color: white;
-    
+    font-size: 15px;    
+    color: white;    
     padding: 0 40px 40px 40px;
 
-    }
+}
     
 th {
     text-align: center;
-
-    font-size: 25px;
-    
+    font-size: 25px;    
     color: white;
-    
-    }
 
+}
 
+.spansuper {
 
+    font-size: 0.5em;
+    padding: .2em;
+    vertical-align: super;
+
+}
+
+p.textmessage{
+    font-size: .5em;
+}
