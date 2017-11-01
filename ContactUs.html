@@ -19,7 +19,7 @@
             {rather-be-gaming}<span class="spansuper">&reg</span>
          </h1>
     
-          <img src = "images/rather-be-gaming.png" width="280" alt ="rather be gaming Company Logo" />
+          <img src = "images/rather-be-gaming.png" width="220" alt ="rather be gaming Company Logo" />
     
         </header>
 
@@ -28,18 +28,13 @@
             <li><a href="PlayStationGames.html">Playstation</a></li>
             <li><a href="XboxGames.html">Xbox</a></li>
         </nav>
-            
-        <br/>
-        <br/>
-  
-        <h1> Contact Us</h1>
-
-        <img src ="images/contactus.jpg" width ="531" alt ="Contact Us" />
-        
-        <br/>
-        <br/>
+         
 
         <div class="content">
+
+                <h2> Contact Us</h2>
+                
+                <img src ="images/contactus.jpg" width ="431" alt ="Contact Us" />
                 
              <p>            
                 Please contact us with any questions, comments, concerns, or for order status updates and we will respond as quickly as possible.               
@@ -47,17 +42,18 @@
 
             <br/>
 
-            <form action="">
+            
+            <form name="contactForm" action="" onsubmit="return validateForm()" method="post">
                 <p>
-                    <label> First Name: <input type ="text" name = "firstname" size = "30" />  </label><br/><br/>
-                    <label> Last Name: <input type ="text" name = "lastname" size = "30" />  </label> <br/><br/>
-                    <label> Phone: <input type ="text" name = "phone" size = "15" />  </label> <br/><br/>
-                    <label> Email: <input type ="email" name = "email" size = "50" />  </label> <br/><br/>
+                    <label> First Name: <input type ="text" name = "firstname" size = "30" id="fnTextBox" required />  </label><br/><br/>
+                    <label> Last Name: <input type ="text" name = "lastname" size = "30" id="lnTextBox" required />  </label> <br/><br/>
+                    <label> Phone: <input type ="number" name = "phone" size = "15" id="pTextBox" required />  </label> <br/><br/>
+                    <label> Email: <input type ="email" name = "email" size = "50" id="eTextBox" required />  </label> <br/><br/>
                 </p>
                 <p>Please select your prefered form of response:</p>
 
                 <p>                                           
-                     <label><input type="radio" name="response" value="Remail"> Email </label> <br/>
+                     <label><input type="radio" name="response" value="Remail" checked="checked"> Email </label> <br/>
                      <label><input type="radio" name="response" value="Rphone"> Phone </label> <br/>
                      <label><input type="radio" name="response" value="Rtext"> Text<span class = "spansuper">*</span> </label> <br/>                                                                                 
                 </p>
@@ -71,7 +67,7 @@
                 <hr>
 
                 <p>
-                    Reason for contacting:
+                    Please select a reason for contacting us, then type a brief message in the box provided...
                 </p>
                 <select name="contactingfor">
                         <option value="question">Question</option>
@@ -80,14 +76,22 @@
                         <option value="orderstatusupdate">Order Status Update</option>
                 </select> <br/><br/>
 
-                <textarea name="message" rows="10" cols="30">Type content here...</textarea><br/>
+                <textarea name="message" rows="10" cols="30" id="mTextBox" required></textarea><br/>
 
-                <input type="submit" value="Submit" onclick="alert('Your submittion was succesful.')" >
+                <input type="submit" value="Submit">
                 
                 <input type="reset" onclick="alert('You reset the form.')">
 
-            </form>                      
-        </div>  
+            </form>
+
+            <br/><br/>
+
+            <h6 class="todaydate" id="date"></h6>     
+        </div> 
         
+        <script src="JavaScript.js"></script>
+
     </body>
+
+    
 </html>
