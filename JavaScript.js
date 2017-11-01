@@ -34,9 +34,11 @@ function validateForm() {
 
     if (isNaN(p) || p == "")
     {
+        
         alert("Please enter your phone number as digits only.");
-        document.getElementById("pnTextBox").focus();
+        document.getElementById("pTextBox").focus();
         return false;
+  
     }
 
     if (e == "")       
@@ -45,6 +47,7 @@ function validateForm() {
         alert("Please enter your email.");
         document.getElementById("eTextBox").focus();
         return false;
+        
         
     }
 
