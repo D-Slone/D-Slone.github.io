@@ -63,5 +63,43 @@ function validateForm() {
     }         
 }
 
+
+// When the user clicks on the products button, toggle between hiding and showing the dropdown content
+function myFunction() {
+    
+        document.getElementById("myDropDown").classList.toggle("show");
+    
+    }
+    
+    
+    
+    // Closes the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+    
+      if (!event.target.matches('.dropbtn')) {
+    
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+    
+        var i;
+    
+        for (i = 0; i < dropdowns.length; i++) {
+    
+          var openDropdown = dropdowns[i];
+    
+          if (openDropdown.classList.contains('show')) {
+    
+            openDropdown.classList.remove('show');
+    
+          }// end inner if statement
+    
+        }// end for loop
+    
+      }// end outer if statement
+    
+    }// end window.onclick
+
+
+
+
 var date = new Date();
 document.getElementById("date").innerHTML = "Today is: " + date.toDateString();
