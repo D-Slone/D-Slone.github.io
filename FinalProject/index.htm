@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- Great Race webpage -->
+
+<html lang="en">
+<head>
+
+  <title>The Great Race</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  
+  <meta name="race" content="HTML5 Template">
+
+</head>
+
+<body>
+
+
+  <div id="redLight" onclick="startRace()"><img src = "FPPictures/redLight.jpg" onclick="" id = "redlight"  width="140"  alt ="red traffic light"/></div>
+
+  <header>
+    <h1>The Great Race!</h1> 
+  </header>
+
+  <div id="greenLight"><img src = "FPPictures/greenLight.jpg" id = "greenlight"  width="140"  alt ="green traffic light"/></div>
+
+
+  <div id="chevyLogo"><img src = "FPPictures/Chevrolet.png" width="325"  alt ="Chevy logo"/></div>
+
+  <div id="fordLogo"><img src = "FPPictures/Ford.png" width="254"  alt ="Ford logo"/></div>
+
+  <div id="winTrophy" onclick="reset()"><img src = "FPPictures/Winner.png" width="275"  alt ="trophy"/></div>
+
+  <h3 id = "raceAgain">Click the trophy to race again!!</h3>
+
+  <div id="chevyName" onclick="reset()">Chevy</div>
+
+  <div id="fordName" onclick="reset()">Ford</div>
+  
+  <div id="tieName" onclick="reset()">Tie!</div>
+
+  <p id = "startRace">Who will win?!<span class = "greenText">  Click the <span id = "redText">red</span> light to race!</span></p>
+  <p id = "racingText">Forget slow...<span class = "greenText">  Go, GO, </span><span id = "goText">GO!  </span><span id = "stopText">  Don't Stop!</span></p>
+  <p id = "winnerText">Winner!!</p>
+  
+  <script src="JavaScript.js"></script>
+
+</body>
+</html>

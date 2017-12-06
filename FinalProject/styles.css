@@ -1,0 +1,150 @@
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+
+    color: rgb(229, 255, 0);
+    
+    text-align: center;
+    
+    font-size: 30px;
+    
+    font-style: oblique;
+    
+    border-bottom: thick solid rgb(229, 255, 0); 
+    
+}
+
+body{
+    
+      background: url("FPPictures/road.png");
+
+       background-size: 55%;
+
+       width: auto;
+    
+       height: auto;
+    
+      min-width: 100%;
+    
+       min-height: 100%;
+    
+       text-align: center;
+    
+        color: white;
+    
+ }
+
+p{
+    font-size: 25px;
+    font-style: oblique;
+    color: rgb(229, 255, 0);
+    text-align: center;
+    position: absolute;
+    bottom: -25px;
+    left: 500px;
+        
+}
+
+#winnerText{
+    position: absolute;
+    bottom: -25px;
+    left: 650px;
+}
+
+h3{
+    color: rgb(229, 255, 0);
+    position: absolute;
+    bottom: 150px;
+    left: 575px;
+
+}
+
+#redLight{
+        
+        position: absolute;
+        top: 5px;
+        right: 150px; 
+        z-index: 2;
+
+}
+
+#greenLight{
+        
+        position: absolute;
+        top: 5px;
+        left: 150px; 
+        z-index: 3;
+}
+
+#chevyLogo{
+    position: absolute;
+    top: 250px;
+    left: -35px;
+    z-index: -1;
+}
+
+#fordLogo{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    z-index: -1;
+}
+
+#chevyName{
+
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px; 
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 245px;
+    left: 670px;
+
+}
+
+#fordName{
+
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 245px;
+    left: 674px;
+     
+}
+
+#tieName{
+    
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        position: absolute;
+        top: 245px;
+        left: 675px;
+         
+    }
+
+.greenText{
+    font-size: 1em;
+    color: rgb(3, 201, 3); 
+}
+
+#redText{
+    font-size: 1.5em;
+    color: red; 
+}
+
+#goText{
+    font-size: 1.5em;
+    color: rgb(3, 201, 3);
+}
+
+
+#stopText{
+    color: red;
+}
+
