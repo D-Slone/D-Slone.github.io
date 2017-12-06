@@ -63,7 +63,7 @@ function startRace(){
             var cDistance = distance1;
             var fDistance = distance2;
 
-            finishline = screen.width;
+            var finishline = screen.width;
 
 
             if((cDistance + 290) == (fDistance + 254) && (cDistance + 290) >= finishline && (fDistance + 254)  >= finishline){
