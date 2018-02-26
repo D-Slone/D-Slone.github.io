@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("p").toggle();
+                });
+            });
+         </script>
+
+    </head>
+    <body>
+    <div data-role ="page" id="home" data-theme="b">
+
+        <div data-role="header">
+            <h1>Home</h1>
+
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-top ui-btn-active ui-state-persist" data-transition="flow" >Home</a></li>
+                    <li><a href="#contact" class="ui-btn ui-shadow ui-corner-all ui-icon-mail ui-btn-icon-top" data-transition="flow">Contact</a></li>
+                </ul>
+            </div>
+
+        </div><!--end header-->
+
+        <div role="main" class="ui-content">
+                <h3>This the home page!</h3>
+            <p>Page content goes here...Hello.</p>
+
+            <h2>This is a heading</h2>
+
+            <p>This is a paragraph.</p>
+            <p>This is another paragraph.</p>
+
+            <button>Click me</button>
+
+        </div><!--end content-->
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div><!--end footer-->
+
+    </div><!-- end home page -->
+
+
+    <!--////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <div data-role ="page" id="contact" data-theme="b">
+
+        <div data-role="header">
+            <h1>Contact</h1>
+    
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-top" data-transition="flow">Home</a></li>
+                    <li><a href="#contact" class="ui-btn ui-shadow ui-corner-all ui-icon-mail ui-btn-icon-top ui-btn-active ui-state-persist" data-transition="flow">Contact</a></li>
+                </ul>
+            </div>
+    
+        </div><!--end header-->
+    
+        <div role="main" class="ui-content">
+            <h3>This the contact page!</h3>
+            <p>Page content goes here.</p>
+    
+            <h2>This is a heading</h2>
+    
+            <p>This is a paragraph.</p>
+            <p>This is another paragraph.</p>
+    
+            <button>Click me</button>
+    
+        </div><!--end content-->
+    
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div><!--end footer-->
+    
+    </div><!-- end contact page -->
+
+        
+
+    </body>
+</html>
+
