@@ -126,8 +126,8 @@ a:active {
     left: 40%;
     width: 20%;
     padding: 20px;
-    background-color: rgb(221, 224, 6);
-    color: black;
+    background-color: rgb(224, 6, 6);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-size: 2vw;
     border: none;
@@ -137,7 +137,7 @@ a:active {
 
 #text_area{
     position: relative;
-    height: 500px;
+    height: 550px;
     width: 90%;
     border: 2px solid white;
     background-color: black;
